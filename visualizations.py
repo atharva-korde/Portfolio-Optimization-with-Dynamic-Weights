@@ -21,7 +21,7 @@ def plot_cumulative_returns(portfolio_returns: pd.Series, benchmark_returns: pd.
 
 
 # A function to plot the distribution of weights over time
-def plot_weights(weights_df):
+def plot_weights(weights_df: pd.DataFrame):
 
     weights_df.plot(kind="area", stacked=True, figsize=(12, 6))
     plt.title("Dynamic Portfolio Weights")
