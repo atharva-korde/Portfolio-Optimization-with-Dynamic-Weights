@@ -1,4 +1,4 @@
-# Portfolio Optimization by Dynamic Weights
+# Portfolio Optimization with Dynamic Weights
 
 ## Introduction
 
