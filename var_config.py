@@ -1,8 +1,8 @@
 TICKERS = ["AAPL", "AMZN", "GOOGL", "META", "MSFT"]
 # List of tickers: Apple, Amazon, Google, Meta, Microsoft
 
-START_DATE = "2016-01-01"
-END_DATE = "2026-01-01"
+START_DATE = '2016-01-01'
+END_DATE = '2026-01-01'
 
 ROLLING_WINDOW_OPTIONS = [126, 252, 504]
 REBALANCING_FREQ_OPTIONS = [1, 7, 14, 21, 42]
